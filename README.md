@@ -1,7 +1,7 @@
 ### Project Status
 Actively under development
 
-# Forescout Exposure Simulator
+# Device Exposure Command Center 
 
 A lightweight simulation that demonstrates how asset visibility platforms identify devices on a network, classify them, and surface potential exposure risks.
 
