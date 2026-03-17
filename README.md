@@ -1,139 +1,139 @@
 ### Project Status
 Actively under development
 
-# Device Exposure Command Center 
+# Device Exposure Command Center
 
-A lightweight simulation that demonstrates how asset visibility platforms identify devices on a network, classify them, and surface potential exposure risks.
+**Device Exposure Command Center** is an interactive simulation platform designed to model how modern security teams identify, analyze, and respond to device exposure across complex environments.
 
-This project was created as part of my technical portfolio to explore how network telemetry and infrastructure signals can be translated into meaningful security insights and executive-level summaries.
-
----
-
-## Overview
-
-Modern organizations often struggle with a fundamental security question:
-
-**What devices actually exist on the network?**
-
-Asset visibility and exposure management platforms help answer that question by collecting telemetry from network infrastructure, analyzing traffic patterns, and enriching device information with contextual signals.
-
-The **Forescout Exposure Simulator** models a simplified version of that workflow.
-
-The application allows a user to:
-
-- Select a **network scenario**
-- Choose a **discovery context**
-- Simulate device discovery and classification
-- Generate an **exposure summary**
-- Produce **recommended remediation actions**
-- Visualize device exposure and risk distribution
-
-The goal of this project is not to replicate a full security platform, but to demonstrate how asset visibility and exposure insights can be communicated clearly and effectively.
+Inspired by platforms like Forescout and Armis, this project focuses on **asset visibility, classification, and risk-driven decision making**, translating raw telemetry into actionable security insights.
 
 ---
 
-## Why I Built This
+## What It Does
 
-In many organizations, security teams struggle with visibility into unmanaged or unknown devices. These devices can include:
+The application simulates how different discovery methods surface device data and exposes key risk indicators across an environment.
 
-- IoT devices
-- medical equipment (IoMT)
-- OT / manufacturing systems
-- unmanaged laptops or shadow IT assets
+It enables users to:
 
-Without visibility, these assets can introduce risk that security teams cannot easily detect or prioritize.
-
-I built this project to simulate the workflow that exposure management platforms provide — taking raw signals from infrastructure and translating them into meaningful insights and actionable guidance.
-
----
-
-<img width="943" height="1235" alt="image" src="https://github.com/user-attachments/assets/57573166-6e05-42ee-a554-8215d3876140" />
-
-## Key Features
-
-**Scenario-Based Simulation**
-
-The application includes multiple network environments to simulate different operational contexts.
-
-Examples include:
-
-- Corporate IT environments  
-- Healthcare / IoMT networks  
-- Manufacturing / OT environments  
-- Distributed branch office networks  
+- Analyze device visibility across simulated environments  
+- Identify unmanaged assets and ownership gaps  
+- Evaluate risk signals and exposure patterns  
+- Generate executive-level summaries and priority actions  
+- Map findings to business outcomes and operational impact  
 
 ---
 
-**Discovery Context Selection**
+## Key Concepts Modeled
 
-Different telemetry sources may be used to discover assets on a network.
-
-Examples include:
-
-- Passive network monitoring
-- Mirrored traffic (SPAN / TAP)
-- Infrastructure telemetry
-- Endpoint enrichment sources
-
-The simulator allows the user to select the discovery source to illustrate how asset intelligence platforms gather device information.
+- **Unmanaged Asset Discovery** – Identifying devices outside traditional control planes  
+- **Ownership Attribution Gaps** – Highlighting devices without clear accountability  
+- **Risk Signal Analysis** – Prioritizing high-risk and critical assets  
+- **Discovery Method Context** – Understanding how visibility changes based on telemetry source  
+- **Exposure-Driven Workflows** – Connecting technical findings to remediation and governance actions  
 
 ---
 
-**Executive Summary**
+## How It Works
 
-After the simulation runs, the application generates a concise summary of the environment and potential exposure risks.
-
-This models how security teams often need to translate technical findings into leadership-ready communication.
-
----
-
-**Recommended Actions**
-
-The application also generates recommended next steps to address potential exposure risks, such as:
-
-- investigating unmanaged devices
-- reviewing segmentation policies
-- validating asset ownership
-- confirming monitoring coverage
+1. Select a **scenario** representing a simulated environment  
+2. Choose a **discovery source** (e.g., SPAN, DHCP, EDR)  
+3. Run analysis to simulate device ingestion and scoring  
+4. Review:
+   - Exposure Overview  
+   - Priority Actions  
+   - Device Exposure Signals  
+   - Asset Intelligence Table  
+   - Business Outcome Mapping  
 
 ---
 
-**Exposure Visualization**
+## Discovery-Aware Analysis
 
-The simulation provides a basic visualization of discovered assets and their associated risk levels.
+A key feature of this project is its ability to contextualize findings based on the selected discovery method.
 
----
+Each discovery source includes:
 
-**Exposure Details Table**
+- How the data is collected  
+- Strengths in visibility and coverage  
+- Known blind spots or limitations  
+- Impact on exposure analysis  
 
-A table view provides device-level context that could support deeper analysis by security or operations teams.
-
----
-
-## Technology Stack
-
-This project was built using:
-
-- **Python**
-- **Gradio** for the user interface
-- **Pandas** for data handling
-- **Plotly** for simple visualization
-
-The goal was to keep the implementation lightweight while still providing an interactive demonstration of exposure analysis concepts.
+This mirrors how real-world platforms evaluate **visibility gaps and telemetry bias**.
 
 ---
 
-## Project Structure
+## Example Outputs
 
+- **Exposure Overview**  
+  Dynamic summary based on asset counts, unmanaged devices, ownership gaps, and risk levels  
 
-```
-forescout-exposure-simulator
-│
-├── app.py
-├── analyzer.py
-├── scoring.py
-├── sample_data.py
-├── requirements.txt
-└── README.md
-```
+- **Priority Actions**  
+  Data-driven recommendations based on current exposure signals  
 
+- **Device Exposure Signals**  
+  Visual breakdown of asset distribution and risk indicators  
+
+- **Business Outcome Mapping**  
+  Translation of technical findings into measurable business impact  
+
+---
+
+## Why This Project
+
+Security teams often struggle to connect **technical telemetry** with **business impact and decision-making**.
+
+This project was built to explore how:
+
+- Raw device data can be transformed into **structured insights**  
+- Visibility gaps can be clearly communicated  
+- Security findings can be aligned to **business outcomes and stakeholder priorities**  
+
+---
+
+## Design Philosophy
+
+- **Signal → Insight → Action → Outcome**
+- Separate **data logic** from **presentation layers**
+- Emphasize **context over raw data**
+- Simulate real-world **security + customer success workflows**
+
+---
+
+## Tech Stack
+
+- Python  
+- Pandas (data processing)  
+- Gradio (interactive UI)  
+- Matplotlib (visualization)  
+
+---
+
+## Status
+
+Active development — continuously improving:
+
+- Dynamic analysis logic  
+- UI/UX and visualization  
+- Scenario realism and data modeling  
+- AI-assisted insights and recommendations  
+
+ Strategic decision-making  
+
+---
+
+## Related Projects
+
+- **CS Brain** – AI-powered Customer Success strategy assistant  
+- **Business Outcomes Mapper** – Value alignment and stakeholder mapping tool  
+
+---
+
+## Future Enhancements
+
+- Discovery-specific action recommendations  
+- Risk scoring improvements  
+- Scenario customization  
+- AI-driven insights and pattern detection  
+- Expanded integrations and data sources  
+
+---
