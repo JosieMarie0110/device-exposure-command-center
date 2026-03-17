@@ -3,9 +3,9 @@ Actively under development
 
 # Device Exposure Command Center
 
-**Device Exposure Command Center** is an interactive simulation platform designed to model how modern security teams identify, analyze, and respond to device exposure across complex environments.
+Device Exposure Command Center is an interactive simulation platform designed to model how modern security teams identify, classify, and respond to device exposure across complex environments.
 
-Inspired by platforms like Forescout and Armis, this project focuses on **asset visibility, classification, and risk-driven decision making**, translating raw telemetry into actionable security insights.
+Inspired by the architectural approach of platforms like Forescout and Armis, this project emphasizes agentless visibility, multi-source device discovery, and risk-based enforcement, transforming raw network telemetry into actionable insights and security-driven business outcomes.
 
 ---
 
