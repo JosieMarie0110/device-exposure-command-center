@@ -1,5 +1,23 @@
+k# Python
 venv/
 __pycache__/
 *.pyc
-.DS_Store
+
+# Environment
 .env
+
+# macOS
+.DS_Store
+
+# Backup files
+*_backup_*.py
+*_backup_*.json
+*_backup_*.md
+*_last_good.py
+*_last_good.json
+*_working.py
+
+# Backup folders
+*_backup/
+*_backup_good/
+*-backup/
