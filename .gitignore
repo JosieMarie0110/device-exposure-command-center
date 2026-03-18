@@ -1,4 +1,4 @@
-k# Python
+# Python
 venv/
 __pycache__/
 *.pyc
@@ -9,13 +9,17 @@ __pycache__/
 # macOS
 .DS_Store
 
-# Backup files
+# Backup and temp files
 *_backup_*.py
-*_backup_*.json
-*_backup_*.md
+*_backup.py
 *_last_good.py
-*_last_good.json
+*_last_good_*.py
 *_working.py
+
+# Backup data files
+*_backup_*.json
+*_backup.json
+*_last_good.json
 
 # Backup folders
 *_backup/
