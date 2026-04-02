@@ -1,139 +1,115 @@
 ### Project Status
 Actively under development
 
-# Device Exposure Command Center
+## Device Exposure Command Center
 
-Device Exposure Command Center is an interactive simulation platform designed to model how modern security teams identify, classify, and respond to device exposure across complex environments.
+An interactive simulation platform for modeling how security teams identify, classify, and respond to device exposure.
 
-Inspired by the architectural approach of platforms like Forescout and Armis, this project emphasizes agentless visibility, multi-source device discovery, and risk-based enforcement, transforming raw network telemetry into actionable insights and security-driven business outcomes.
+Inspired by platforms like Forescout and Armis, it focuses on agentless visibility, multi-source discovery, and risk-based prioritization.
+
+---
+
+## Overview
+
+Simulates how device data is discovered, analyzed, and translated into actionable insights.
+
+Helps answer:
+- What devices exist?  
+- Which are unmanaged or risky?  
+- Where are ownership gaps?  
+- What actions should be prioritized?  
 
 ---
 
 ## What It Does
 
-The application simulates how different discovery methods surface device data and exposes key risk indicators across an environment.
-
-It enables users to:
-
-- Analyze device visibility across simulated environments  
+- Analyze device visibility across environments  
 - Identify unmanaged assets and ownership gaps  
 - Evaluate risk signals and exposure patterns  
-- Generate executive-level summaries and priority actions  
-- Map findings to business outcomes and operational impact  
+- Generate priority actions and summaries  
+- Map findings to business impact  
 
 ---
 
-## Key Concepts Modeled
+## Key Concepts
 
-- **Unmanaged Asset Discovery** – Identifying devices outside traditional control planes  
-- **Ownership Attribution Gaps** – Highlighting devices without clear accountability  
-- **Risk Signal Analysis** – Prioritizing high-risk and critical assets  
-- **Discovery Method Context** – Understanding how visibility changes based on telemetry source  
-- **Exposure-Driven Workflows** – Connecting technical findings to remediation and governance actions  
+- **Unmanaged Discovery** — devices outside control  
+- **Ownership Gaps** — no clear accountability  
+- **Risk Signals** — prioritizing critical assets  
+- **Discovery Context** — visibility varies by source  
+- **Exposure Workflows** — from finding → action  
 
 ---
 
 ## How It Works
 
-1. Select a **scenario** representing a simulated environment  
-2. Choose a **discovery source** (e.g., SPAN, DHCP, EDR)  
-3. Run analysis to simulate device ingestion and scoring  
-4. Review:
-   - Exposure Overview  
-   - Priority Actions  
-   - Device Exposure Signals  
-   - Asset Intelligence Table  
-   - Business Outcome Mapping  
+1. Select a scenario  
+2. Choose a discovery source (SPAN, DHCP, EDR)  
+3. Run analysis  
+
+Outputs:
+- Exposure overview  
+- Priority actions  
+- Device exposure signals  
+- Asset intelligence  
+- Business impact mapping  
 
 ---
 
 ## Discovery-Aware Analysis
 
-A key feature of this project is its ability to contextualize findings based on the selected discovery method.
+Each discovery method includes:
+- Data collection method  
+- Visibility strengths  
+- Known blind spots  
+- Impact on analysis  
 
-Each discovery source includes:
-
-- How the data is collected  
-- Strengths in visibility and coverage  
-- Known blind spots or limitations  
-- Impact on exposure analysis  
-
-This mirrors how real-world platforms evaluate **visibility gaps and telemetry bias**.
+Reflects real-world telemetry limitations and bias.
 
 ---
 
-## Example Outputs
+## Why It Matters
 
-- **Exposure Overview**  
-  Dynamic summary based on asset counts, unmanaged devices, ownership gaps, and risk levels  
+Security teams struggle to connect telemetry to decisions.
 
-- **Priority Actions**  
-  Data-driven recommendations based on current exposure signals  
-
-- **Device Exposure Signals**  
-  Visual breakdown of asset distribution and risk indicators  
-
-- **Business Outcome Mapping**  
-  Translation of technical findings into measurable business impact  
-
----
-
-## Why This Project
-
-Security teams often struggle to connect **technical telemetry** with **business impact and decision-making**.
-
-This project was built to explore how:
-
-- Raw device data can be transformed into **structured insights**  
-- Visibility gaps can be clearly communicated  
-- Security findings can be aligned to **business outcomes and stakeholder priorities**  
+This project focuses on:
+- Turning device data into actionable insight  
+- Highlighting visibility gaps  
+- Aligning technical findings to business outcomes  
 
 ---
 
 ## Design Philosophy
 
-- **Signal → Insight → Action → Outcome**
-- Separate **data logic** from **presentation layers**
-- Emphasize **context over raw data**
-- Simulate real-world **security + customer success workflows**
+- Signal → Insight → Action → Outcome  
+- Context over raw data  
+- Separate data and presentation layers  
+- Model real-world security + CS workflows  
 
 ---
 
 ## Tech Stack
 
 - Python  
-- Pandas (data processing)  
-- Gradio (interactive UI)  
-- Matplotlib (visualization)  
+- Pandas  
+- Gradio  
+- Matplotlib  
 
 ---
 
 ## Status
 
-Active development — continuously improving:
-
-- Dynamic analysis logic  
-- UI/UX and visualization  
-- Scenario realism and data modeling  
-- AI-assisted insights and recommendations  
-
- Strategic decision-making  
-
----
-
-## Related Projects
-
-- **CS Brain** – AI-powered Customer Success strategy assistant  
-- **Business Outcomes Mapper** – Value alignment and stakeholder mapping tool  
+Active development:
+- Improved analysis logic  
+- UI/UX enhancements  
+- More realistic scenarios  
+- AI-assisted insights  
 
 ---
 
 ## Future Enhancements
 
-- Discovery-specific action recommendations  
-- Risk scoring improvements  
+- Discovery-based recommendations  
+- Improved risk scoring  
 - Scenario customization  
-- AI-driven insights and pattern detection  
-- Expanded integrations and data sources  
-
----
+- Expanded data sources  
