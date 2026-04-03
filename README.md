@@ -54,37 +54,6 @@ Outputs:
 - Asset intelligence  
 - Business impact mapping  
 
----
-
-## Discovery-Aware Analysis
-
-Each discovery method includes:
-- Data collection method  
-- Visibility strengths  
-- Known blind spots  
-- Impact on analysis  
-
-Reflects real-world telemetry limitations and bias.
-
----
-
-## Why It Matters
-
-Security teams struggle to connect telemetry to decisions.
-
-This project focuses on:
-- Turning device data into actionable insight  
-- Highlighting visibility gaps  
-- Aligning technical findings to business outcomes  
-
----
-
-## Design Philosophy
-
-- Signal → Insight → Action → Outcome  
-- Context over raw data  
-- Separate data and presentation layers  
-- Model real-world security + CS workflows  
 
 ---
 
@@ -95,15 +64,7 @@ This project focuses on:
 - Gradio  
 - Matplotlib  
 
----
 
-## Status
-
-Active development:
-- Improved analysis logic  
-- UI/UX enhancements  
-- More realistic scenarios  
-- AI-assisted insights  
 
 ---
 
