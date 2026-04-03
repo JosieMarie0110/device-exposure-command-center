@@ -64,13 +64,3 @@ Outputs:
 - Gradio  
 - Matplotlib  
 
-
-
----
-
-## Future Enhancements
-
-- Discovery-based recommendations  
-- Improved risk scoring  
-- Scenario customization  
-- Expanded data sources  
