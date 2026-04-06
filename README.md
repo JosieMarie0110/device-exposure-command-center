@@ -40,6 +40,10 @@ Helps answer:
 - **Exposure Workflows** — from finding → action  
 
 ---
+<img width="1870" height="1430" alt="image" src="https://github.com/user-attachments/assets/45fe655c-9545-4458-8b60-636ae784951f" />
+<img width="1881" height="1612" alt="image" src="https://github.com/user-attachments/assets/ed6b4d1c-e7a3-431d-91cc-0fbb73101290" />
+
+
 
 ## How It Works
 
